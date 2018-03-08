@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todolist</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/todolist.css">	
+	<script type="text/javascript" src="script/todolist.js" defer></script>
+</head>
+
+<body>
+	<section id="list">
+		<div class="container">
+			<label>Add Item</label>
+			<p id="pinfo"></p>
+			<input class="inputtext" id="myinput" type="text" name="addtext" placeholder="Add an item to the list.." required>
+			<input class="button" type="button" name="addbutton" value="Add Item" onclick="addItem()">
+		</div>
+	</section>
+
+	<section id="dolist">
+		<div class="container">
+			<form>
+				<label id="todolabel">Todolist</label>
+				<label id="donelabel">Donelist</label>
+			</form>
+			<div>
+				<ul id="todoul">
+
+
+				</ul>
+
+				<ul id="doneul">
+
+
+
+				</ul>
+
+			</div>
+
+		</div>
+	</section>
+	
+	<footer>
+		<h3>Copyright &copy; Ahmet Ordulu 2017</h3>
+	</footer>
+
+</body>
+</html>

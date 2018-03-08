@@ -1,0 +1,196 @@
+body{
+
+	animation: fadein 2s;
+	font: 15px/1.5 Arial;
+	background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+	margin: 10px;
+	padding: 10px;
+ 
+}
+
+.container{
+
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	background: #ebebfa;
+	color: black;
+	padding-top: 20px;
+	min-height: 30px;
+	border: black 3px solid;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#list label{
+
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0px 0px 30% 42%;
+	text-decoration: underline;
+
+
+}
+
+#list p{
+
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 40%;
+}
+
+.inputtext{
+
+	width: 40%;
+	height: 50px;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 20px 0px 15px 25%;
+
+}
+
+.button{
+
+	border-radius: 10px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	height: 45px;
+	background-color: orange
+}
+
+.button:hover{
+
+	cursor: pointer;
+	background-color: green;
+
+
+}
+
+#dolist{
+	height: 100vh;
+}
+
+#dolist label{
+
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0px 0px 20px 25%;
+	text-decoration: underline;
+
+
+}
+
+#dolist ul{
+
+border: 3px solid black;
+margin: 0px -30px 10px 21%;
+width: 250px;
+float: left;
+background-color: white;
+
+
+}
+
+#dolist li{
+
+	list-style-type: none;
+	font-style: italic;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    overflow: hidden;
+    background: #fff;
+    font-size: 16px;
+    border-bottom: black 3px solid;
+
+}
+
+#todoul li:hover{
+
+	animation-name: colorfade;
+	animation-duration: 2s;
+	animation-iteration-count: 5;
+
+
+}
+
+#doneul li{
+
+    color: black;
+    text-decoration: line-through;
+    border-bottom: black 3px solid;
+    margin: 0 15px 0 15px;
+
+}
+
+
+
+#delbutton{
+
+	border-radius: 10px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	background-color: orange;
+	float: right;
+
+}
+
+#delbutton:hover{
+
+	background-color: red;
+	cursor: pointer;
+}
+
+
+#cbox {
+	
+	cursor: pointer;
+	position: relative;
+	margin-left: 10px;
+
+}
+
+/* FOOTER */
+
+footer{
+
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	background: black;
+	color: white;
+	padding-top: 10px;
+	min-height: 70px;
+	border: black 3px solid;
+	text-align: center;
+}
+
+/* FADING */
+
+@-webkit-keyframes fadein { 
+	
+	from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }	  
+}
+
+@-webkit-keyframes colorfade{
+
+
+	50% {background-color: #9999ff;}
+	100% {background-color: #fff;}
+
+}
+
+
